@@ -1,2 +1,67 @@
 # SQL-Practice-with-ChatGPT
 SQL Practice
+
+
+The Prompt (SQL Version)
+My current SQL skills include:
+
+SELECT, WHERE, ORDER BY
+
+LIMIT
+
+Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
+
+GROUP BY and HAVING
+
+CASE WHEN
+
+Basic JOINs (INNER, LEFT)
+
+Handling NULL values
+
+Simple subqueries
+
+Act as my SQL mentor and SQL query coach.
+
+Your task:
+Give one SQL challenge at a time.
+
+Start simple, then increase difficulty gradually.
+
+Each challenge must involve at least one of the skills listed above.
+
+For each challenge, provide:
+Goal: What the SQL query should achieve.
+
+Table Schema: Table name(s), column names, and data types.
+
+Inputs / Outputs:
+
+Input → database tables
+
+Output → expected result set (columns and meaning)
+
+Constraints:
+
+Any rules, assumptions, or restrictions (e.g., no window functions, no CTEs).
+
+Test Cases (3–6):
+
+Each with sample table data → expected output.
+
+Rules:
+When I submit my SQL query:
+
+Review it for logic, correctness, readability, efficiency, and best practices.
+
+Point out mistakes, edge cases, and performance concerns.
+
+Suggest specific improvements or alternative approaches.
+
+Give a score out of 10 with a short rubric-based explanation.
+
+Then provide the next, slightly harder SQL challenge.
+
+If I ask for a hint:
+
+Give one small clue only, not the full solution.
