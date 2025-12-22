@@ -1,45 +1,55 @@
-# SQL-Practice-with-ChatGPT
-SQL Practice
+# 📊 SQL Practice with ChatGPT
+> **A structured, mentor-driven environment to master SQL query writing through iterative challenges.**
 
+---
 
-The Prompt (SQL Version)
-My current SQL skills include:
+## 📖 Project Overview
 
--SELECT, WHERE, ORDER BY
--LIMIT
--Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
--GROUP BY and HAVING
--CASE WHEN
--Basic JOINs (INNER, LEFT)
--Handling NULL values
--Simple subqueries
+This repository documents my journey in mastering SQL through a customized "AI Mentor" framework. By using ChatGPT as a query coach, I solve increasingly complex challenges that simulate real-world data engineering and analysis scenarios.
 
-Act as my SQL mentor and SQL query coach.
+🎯 **This repository showcases expertise in:**
+* **SQL Development:** Writing clean, efficient, and readable queries.
+* **Query Optimization:** Refining logic for better performance.
+* **Analytical Thinking:** Solving business problems with data-driven logic.
 
-Your task:
-Give one SQL challenge at a time.
-Start simple, then increase difficulty gradually.
-Each challenge must involve at least one of the skills listed above.
+---
 
-For each challenge, provide:
-Goal: What the SQL query should achieve.
-Table Schema: Table name(s), column names, and data types.
-Inputs / Outputs:
-Input → database tables
-Output → expected result set (columns and meaning)
+## 🚀 The Training Framework
 
-Constraints:
-Any rules, assumptions, or restrictions (e.g., no window functions, no CTEs).
-Test Cases (3–6):
-Each with sample table data → expected output.
+### SQL Mentor Persona (The Prompt)
 
-Rules:
-When I submit my SQL query:
-Review it for logic, correctness, readability, efficiency, and best practices.
-Point out mistakes, edge cases, and performance concerns.
-Suggest specific improvements or alternative approaches.
-Give a score out of 10 with a short rubric-based explanation.
-Then provide the next, slightly harder SQL challenge.
+#### Objective
+To leverage AI as a specialized SQL mentor that provides structured, incremental challenges and rigorous code reviews based on industry best practices.
 
-If I ask for a hint:
-Give one small clue only, not the full solution.
+#### My Current Skill Set
+* **Foundational:** SELECT, WHERE, ORDER BY, LIMIT
+* **Aggregations:** COUNT, SUM, AVG, MIN, MAX
+* **Logic & Groups:** GROUP BY, HAVING, CASE WHEN
+* **Relational:** INNER JOIN, LEFT JOIN, NULL handling
+* **Advanced:** Simple Subqueries
+
+#### Mentor Rules & Specifications
+* **Incremental Difficulty:** Start simple and scale up based on performance.
+* **Detailed Schema:** Every challenge must include table names, types, and expected outputs.
+* **Strict Evaluation:** Queries are reviewed for logic, readability, efficiency, and edge cases.
+* **Rubric-Based Scoring:** Every submission receives a score out of 10 with feedback.
+
+---
+
+## 🛠️ Important Links & Tools:
+
+Everything used in this project is for Free!
+
+* [ChatGPT](https://chat.openai.com): Used as the SQL Mentor and Challenge Generator.
+* [SQLLite Online](https://sqliteonline.com/): A web-based environment to test queries without local setup.
+* [DB Fiddle](https://www.db-fiddle.com/): Useful for sharing schema and test cases.
+
+---
+
+## 📈 Learning Progress
+
+| Challenge # | Topic | Status | Score |
+| :--- | :--- | :--- | :--- |
+| 01 | Basic Aggregations | ✅ Completed | 9/10 |
+| 02 | Multi-table Joins | 🏗️ In Progress | -- |
+| 03 | Subqueries & CTEs | 🔒 Locked | -- |
